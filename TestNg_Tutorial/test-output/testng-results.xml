@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-13T11:32:15 IST" name="Default suite" finished-at="2022-12-13T11:32:15 IST" duration-ms="54">
+    <groups>
+      <group name="smoke">
+        <method signature="class3.WebLoginCarLoan(java.lang.String)[pri:0, instance:test.class3@7ea37dbf]" name="WebLoginCarLoan" class="test.class3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-12-13T11:32:15 IST" name="Default test" finished-at="2022-12-13T11:32:15 IST" duration-ms="54">
+      <class name="test.class3">
+        <test-method is-config="true" signature="BfSuite()[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="BfSuite" finished-at="2022-12-13T11:32:15 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="beforeClass" finished-at="2022-12-13T11:32:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="beforeevery" finished-at="2022-12-13T11:32:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method signature="MobileLoginCarLoan()[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="MobileLoginCarLoan" finished-at="2022-12-13T11:32:15 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="afterevery" finished-at="2022-12-13T11:32:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method signature="WebLoginCarLoan(java.lang.String)[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="WebLoginCarLoan" finished-at="2022-12-13T11:32:15 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method WebLoginCarLoan but has not been marked @Optional or defined
+in /tmp/testng-eclipse--995572251/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method WebLoginCarLoan but has not been marked @Optional or defined
+in /tmp/testng-eclipse--995572251/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="beforeevery" finished-at="2022-12-13T11:32:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method signature="mobileSignoutcarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="mobileSignoutcarLoan" data-provider="getData" finished-at="2022-12-13T11:32:15 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignoutcarLoan -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="afterevery" finished-at="2022-12-13T11:32:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="beforeevery" finished-at="2022-12-13T11:32:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method signature="mobileSignoutcarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="mobileSignoutcarLoan" data-provider="getData" finished-at="2022-12-13T11:32:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2ndsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignoutcarLoan -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="beforeevery" finished-at="2022-12-13T11:32:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method signature="mobileSignoutcarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="mobileSignoutcarLoan" data-provider="getData" finished-at="2022-12-13T11:32:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3rdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignoutcarLoan -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="afterevery" finished-at="2022-12-13T11:32:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="afterevery" finished-at="2022-12-13T11:32:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method signature="MobileLoginApiCarLoan()[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="MobileLoginApiCarLoan" finished-at="2022-12-13T11:32:15 IST" depends-on-methods="test.class3.MobileLoginCarLoan, test.class3.WebLoginCarLoan" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method class3.MobileLoginApiCarLoan()[pri:0, instance:test.class3@7ea37dbf] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method class3.MobileLoginApiCarLoan()[pri:0, instance:test.class3@7ea37dbf] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginApiCarLoan -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="AfterClass" finished-at="2022-12-13T11:32:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="AfSuite()[pri:0, instance:test.class3@7ea37dbf]" started-at="2022-12-13T11:32:15 IST" name="AfSuite" finished-at="2022-12-13T11:32:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfSuite -->
+      </class> <!-- test.class3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
